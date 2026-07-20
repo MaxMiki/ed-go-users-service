@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "golang.Go"
+    ],
+    "unwantedRecommendations": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime"
+    ]
+}
