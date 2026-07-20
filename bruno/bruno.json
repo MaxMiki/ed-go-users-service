@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "go-users-service",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
