@@ -1,0 +1,26 @@
+meta {
+  name: Create User
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/users
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "name": "Alice",
+    "email": "alice@example.com"
+  }
+}
+
+vars:post-response {
+  userId: res.body.id
+}
